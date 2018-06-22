@@ -102,30 +102,40 @@ export default class PPT extends React.Component {
               <h3 id="-">绪论</h3>
               <h4 id="-">简介</h4>
               <p>
-                前端工程师是一份什么样的工作？专业前端工程师和前端爱好者有什么不同？高级前端工程师高级在哪里？绪论课程会告诉你答案。
+                前端工程师是一份什么样的工作?
+                专业前端工程师和前端爱好者有什么不同? 高级前端工程师高级在哪里?
+                绪论课程会告诉你答案.
               </p>
               <h4 id="-">链接</h4>
-              <p>
-                资料：<a href="https://github.com/typeerrorfeclass/introduction-class">
-                  https://github.com/typeerrorfeclass/introduction-class
-                </a>
-              </p>
+              <ul>
+                <li>主页: 准备中...</li>
+                <li>
+                  github:{' '}
+                  <a href="https://github.com/typeerrorfeclass/introduction-class">
+                    https://github.com/typeerrorfeclass/introduction-class
+                  </a>
+                </li>
+              </ul>
               <h3 id="-javascript">现代javascript</h3>
               <p>
-                ####简介
-                ECMAScript教学课，包含ECMAScript基本概念、babel使用、eslint使用，以及新语法深度介绍。
+                ####简介 ECMAScript教学课, 包含ECMAScript基本概念, babel使用,
+                eslint使用, 以及新语法的深度介绍和使用经验.
               </p>
               <h4 id="-">链接</h4>
-              <p>
-                主页：<a href="https://typeerrorfeclass.github.io/ecmascript-class">
-                  https://typeerrorfeclass.github.io/ecmascript-class
-                </a>
-              </p>
-              <p>
-                资料：<a href="https://github.com/typeerrorfeclass/ecmascript-class">
-                  https://github.com/typeerrorfeclass/ecmascript-class
-                </a>
-              </p>
+              <ul>
+                <li>
+                  主页:{' '}
+                  <a href="https://typeerrorfeclass.github.io/ecmascript-class">
+                    https://typeerrorfeclass.github.io/ecmascript-class
+                  </a>
+                </li>
+                <li>
+                  github:{' '}
+                  <a href="https://github.com/typeerrorfeclass/ecmascript-class">
+                    https://github.com/typeerrorfeclass/ecmascript-class
+                  </a>
+                </li>
+              </ul>
             </Page>
             <Route exact path="/" render={_ => <Redirect to={'/0'} />} />
           </div>

@@ -32,17 +32,17 @@
 ### 绪论
 
 #### 简介
-前端工程师是一份什么样的工作？专业前端工程师和前端爱好者有什么不同？高级前端工程师高级在哪里？绪论课程会告诉你答案。
+前端工程师是一份什么样的工作? 专业前端工程师和前端爱好者有什么不同? 高级前端工程师高级在哪里? 绪论课程会告诉你答案.
 
 #### 链接
-资料：https://github.com/typeerrorfeclass/introduction-class
+* 主页: 准备中...
+* github: https://github.com/typeerrorfeclass/introduction-class
 
 ### 现代javascript
 
 ####简介
-ECMAScript教学课，包含ECMAScript基本概念、babel使用、eslint使用，以及新语法深度介绍。
+ECMAScript教学课, 包含ECMAScript基本概念, babel使用, eslint使用, 以及新语法的深度介绍和使用经验.
 
 #### 链接
-主页：https://typeerrorfeclass.github.io/ecmascript-class
-
-资料：https://github.com/typeerrorfeclass/ecmascript-class
+* 主页: https://typeerrorfeclass.github.io/ecmascript-class
+* github: https://github.com/typeerrorfeclass/ecmascript-class
