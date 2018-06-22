@@ -2,7 +2,7 @@
 
 ## 访问
 
-* 主页: https://typeerrorfeclass.github.io/home
+* 主页: https://typeerrorfeclass.github.io
 * YY直播间: [34592948](https://0x9.me/j4v80)
 
 ## 联系方式
