@@ -9,7 +9,7 @@
 
 微信扫码:
 
-![微信二维码](./wechat.png)
+![微信二维码](./assets/wechat.png)
 
 ## 项目
 
