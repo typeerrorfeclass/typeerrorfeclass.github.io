@@ -31,7 +31,7 @@ export default class PPT extends React.Component {
   }
 
   goNext() {
-    let currIndex = parseInt(window.location.hash.replace('/', ''))
+    let currIndex = parseInt(window.location.hash.replace('#/', ''))
     if (isNaN(currIndex)) {
       currIndex = -1
     }
@@ -44,7 +44,7 @@ export default class PPT extends React.Component {
   }
 
   goPrev() {
-    let currIndex = parseInt(window.location.hash.replace('/', ''))
+    let currIndex = parseInt(window.location.hash.replace('#/', ''))
     if (isNaN(currIndex)) {
       currIndex = 1
     }
