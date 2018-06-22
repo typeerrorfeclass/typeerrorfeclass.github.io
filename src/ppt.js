@@ -88,7 +88,7 @@ export default class PPT extends React.Component {
               <h3 id="-">联系方式</h3>
               <p>微信扫码:</p>
               <p>
-                <img src="./wechat.png" alt="微信二维码" />
+                <img src="assets/wechat.png" alt="微信二维码" />
               </p>
               <h3 id="-">项目</h3>
               <h4 id="-">高级前端培训课程</h4>
