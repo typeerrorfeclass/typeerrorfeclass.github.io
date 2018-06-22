@@ -31,7 +31,7 @@ export default class PPT extends React.Component {
   }
 
   goNext() {
-    let currIndex = parseInt(window.location.hash)
+    let currIndex = parseInt(window.location.hash.replace('/', ''))
     if (isNaN(currIndex)) {
       currIndex = -1
     }
@@ -44,7 +44,7 @@ export default class PPT extends React.Component {
   }
 
   goPrev() {
-    let currIndex = parseInt(window.location.hash)
+    let currIndex = parseInt(window.location.hash.replace('/', ''))
     if (isNaN(currIndex)) {
       currIndex = 1
     }
@@ -62,8 +62,7 @@ export default class PPT extends React.Component {
         <Router
           ref={c => {
             this.router_ = c
-          }}
-          basename={'/home'}>
+          }}>
           <div className="pages">
             <Catalog items={['TypeError前端直播室', '课程']} />
             <Page pageIndex={0}>
