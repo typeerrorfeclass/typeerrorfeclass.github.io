@@ -71,8 +71,8 @@ export default class PPT extends React.Component {
               <ul>
                 <li>
                   主页:{' '}
-                  <a href="https://typeerrorfeclass.github.io/home">
-                    https://typeerrorfeclass.github.io/home
+                  <a href="https://typeerrorfeclass.github.io">
+                    https://typeerrorfeclass.github.io
                   </a>
                 </li>
                 <li>
