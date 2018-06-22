@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
+import { HashRouter as Router, Route, Redirect } from 'react-router-dom'
 // import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 import Catalog from './component/Catalog'
@@ -31,7 +31,10 @@ export default class PPT extends React.Component {
   }
 
   goNext() {
-    const currIndex = parseInt(window.location.pathname.replace(/^\//, ''))
+    let currIndex = parseInt(window.location.hash)
+    if (isNaN(currIndex)) {
+      currIndex = -1
+    }
 
     if (currIndex >= 2 - 1) {
       return
@@ -41,7 +44,10 @@ export default class PPT extends React.Component {
   }
 
   goPrev() {
-    const currIndex = parseInt(window.location.pathname.replace(/^\//, ''))
+    let currIndex = parseInt(window.location.hash)
+    if (isNaN(currIndex)) {
+      currIndex = 1
+    }
 
     if (currIndex === 0) {
       return
