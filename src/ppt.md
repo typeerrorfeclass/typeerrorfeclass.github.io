@@ -2,16 +2,28 @@
 
 @page
 
+@box({"className": "cover"})
+# TypeError前端直播室
+##### 手机浏览器请向右滑, PC浏览器请点击空格键
+@boxEnd
+
+@page
+
 ## TypeError前端直播室
 
-### 访问
+### 介绍
 
-* 主页: https://typeerrorfeclass.github.io
-* YY直播间: [34592948](https://0x9.me/j4v80)
-* github: https://github.com/typeerrorfeclass
+TypeError前端直播室是一个线上前端技术培训项目, 目前和专业培训机构合作打造课程.
 
-### 联系方式
-微信扫码:
+获取详细信息请扫码加微信.
+
+### 访问地址
+
+* 主页: [typeerrorfeclass.github.io](https://typeerrorfeclass.github.io)
+* 直播: [YY直播间34592948](https://www.yy.com/34592948/34592948)
+* github: [@typeerrorfeclass](https://github.com/typeerrorfeclass)
+
+### 微信扫码
 
 ![微信二维码](assets/wechat.png)
 
@@ -23,26 +35,30 @@
 #### 前端技术每话题每日直播
 筹备中...
 
-### 详细内容请点击空格键
+@page
+
+@box({"className": "cover"})
+# 高级前端培训课程
+@boxEnd
 
 @page
 
-## 课程
+## 绪论
 
-### 绪论
-
-#### 简介
+### 简介
 前端工程师是一份什么样的工作? 专业前端工程师和前端爱好者有什么不同? 高级前端工程师高级在哪里? 绪论课程会告诉你答案.
 
-#### 链接
+### 链接
 * 主页: 准备中...
 * github: https://github.com/typeerrorfeclass/introduction-class
 
-### 现代javascript
+@page
 
-####简介
+## 现代javascript
+
+### 简介
 ECMAScript教学课, 包含ECMAScript基本概念, babel使用, eslint使用, 以及新语法的深度介绍和使用经验.
 
-#### 链接
+### 链接
 * 主页: https://typeerrorfeclass.github.io/ecmascript-class
 * github: https://github.com/typeerrorfeclass/ecmascript-class

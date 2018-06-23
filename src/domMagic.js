@@ -3,7 +3,10 @@ import Hammer from 'hammerjs'
 
 export default function domMagic () {
   enableLargeListItem()
-  enableSwipeToNext()
+
+  if (isMobile() || window.location.href.includes('swipe')) {
+    enableSwipeToNext()
+  }
 }
 
 function enableLargeListItem () {
@@ -33,6 +36,24 @@ function enableLargeListItem () {
   })
 }
 
+function isMobile () {
+  const ua = window.navigator.userAgent
+
+  if (/android/i.test(ua)) {
+    return true
+  }
+
+  if (/(iPhoneiPadiPodiOS)/i.test(ua)) {
+    return true
+  }
+  if (/Linux/i.test(ua)) {
+    return true
+  }
+  if (/MicroMessenger/i.test(ua)) {
+    return true
+  }
+}
+
 function enableSwipeToNext () {
   const pages = document.querySelector('.ppt')
   const h = new Hammer(pages)
@@ -50,10 +71,6 @@ function goNext () {
   let currIndex = parseInt(window.location.hash.replace('#/', ''))
   if (isNaN(currIndex)) {
     currIndex = -1
-  }
-
-  if (currIndex >= 1) {
-    return
   }
 
   goto(`/${currIndex + 1}`)

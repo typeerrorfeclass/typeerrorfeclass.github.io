@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Redirect } from 'react-router-dom'
 
 import Catalog from './component/Catalog'
 import Page from './component/Page'
+import Box from './component/Box'
 
 export default class PPT extends React.Component {
   static get displayName() {
@@ -36,7 +37,7 @@ export default class PPT extends React.Component {
       currIndex = -1
     }
 
-    if (currIndex >= 2 - 1) {
+    if (currIndex >= 5 - 1) {
       return
     }
 
@@ -64,29 +65,51 @@ export default class PPT extends React.Component {
             this.router_ = c
           }}>
           <div className="pages">
-            <Catalog items={['TypeError前端直播室', '课程']} />
+            <Catalog
+              items={[
+                '首页',
+                'TypeError前端直播室',
+                '未命名',
+                '绪论',
+                '现代javascript'
+              ]}
+            />
             <Page pageIndex={0}>
+              <Box data={{ className: 'cover' }}>
+                <h1 id="typeerror-">TypeError前端直播室</h1>
+                <h5 id="-pc-">手机浏览器请向右滑, PC浏览器请点击空格键</h5>
+              </Box>
+            </Page>
+            <Page pageIndex={1}>
               <h2 id="typeerror-">TypeError前端直播室</h2>
-              <h3 id="-">访问</h3>
+              <h3 id="-">介绍</h3>
+              <p>
+                TypeError前端直播室是一个线上前端技术培训项目,
+                目前和专业培训机构合作打造课程.
+              </p>
+              <p>获取详细信息请扫码加微信.</p>
+              <h3 id="-">访问地址</h3>
               <ul>
                 <li>
                   主页:{' '}
                   <a href="https://typeerrorfeclass.github.io">
-                    https://typeerrorfeclass.github.io
+                    typeerrorfeclass.github.io
                   </a>
                 </li>
                 <li>
-                  YY直播间: <a href="https://0x9.me/j4v80">34592948</a>
+                  直播:{' '}
+                  <a href="https://www.yy.com/34592948/34592948">
+                    YY直播间34592948
+                  </a>
                 </li>
                 <li>
                   github:{' '}
                   <a href="https://github.com/typeerrorfeclass">
-                    https://github.com/typeerrorfeclass
+                    @typeerrorfeclass
                   </a>
                 </li>
               </ul>
-              <h3 id="-">联系方式</h3>
-              <p>微信扫码:</p>
+              <h3 id="-">微信扫码</h3>
               <p>
                 <img src="assets/wechat.png" alt="微信二维码" />
               </p>
@@ -95,18 +118,21 @@ export default class PPT extends React.Component {
               <p>每周六周日线上开课, YY直播室见下方. 如需报名请加微信.</p>
               <h4 id="-">前端技术每话题每日直播</h4>
               <p>筹备中...</p>
-              <h3 id="-">详细内容请点击空格键</h3>
             </Page>
-            <Page pageIndex={1}>
-              <h2 id="-">课程</h2>
-              <h3 id="-">绪论</h3>
-              <h4 id="-">简介</h4>
+            <Page pageIndex={2}>
+              <Box data={{ className: 'cover' }}>
+                <h1 id="-">高级前端培训课程</h1>
+              </Box>
+            </Page>
+            <Page pageIndex={3}>
+              <h2 id="-">绪论</h2>
+              <h3 id="-">简介</h3>
               <p>
                 前端工程师是一份什么样的工作?
                 专业前端工程师和前端爱好者有什么不同? 高级前端工程师高级在哪里?
                 绪论课程会告诉你答案.
               </p>
-              <h4 id="-">链接</h4>
+              <h3 id="-">链接</h3>
               <ul>
                 <li>主页: 准备中...</li>
                 <li>
@@ -116,12 +142,15 @@ export default class PPT extends React.Component {
                   </a>
                 </li>
               </ul>
-              <h3 id="-javascript">现代javascript</h3>
+            </Page>
+            <Page pageIndex={4}>
+              <h2 id="-javascript">现代javascript</h2>
+              <h3 id="-">简介</h3>
               <p>
-                ####简介 ECMAScript教学课, 包含ECMAScript基本概念, babel使用,
-                eslint使用, 以及新语法的深度介绍和使用经验.
+                ECMAScript教学课, 包含ECMAScript基本概念, babel使用, eslint使用,
+                以及新语法的深度介绍和使用经验.
               </p>
-              <h4 id="-">链接</h4>
+              <h3 id="-">链接</h3>
               <ul>
                 <li>
                   主页:{' '}
