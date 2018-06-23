@@ -4,7 +4,7 @@
 
 @box({"className": "cover"})
 # TypeError前端直播室
-##### 手机浏览器请向右滑, PC浏览器请点击空格键
+##### 手机浏览器请向左滑, PC浏览器请点击空格键
 @boxEnd
 
 @page

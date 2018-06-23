@@ -77,7 +77,7 @@ export default class PPT extends React.Component {
             <Page pageIndex={0}>
               <Box data={{ className: 'cover' }}>
                 <h1 id="typeerror-">TypeError前端直播室</h1>
-                <h5 id="-pc-">手机浏览器请向右滑, PC浏览器请点击空格键</h5>
+                <h5 id="-pc-">手机浏览器请向左滑, PC浏览器请点击空格键</h5>
               </Box>
             </Page>
             <Page pageIndex={1}>

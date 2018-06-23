@@ -37,19 +37,19 @@ function enableLargeListItem () {
 }
 
 function isMobile () {
-  const ua = window.navigator.userAgent
+  const ua = window.navigator.userAgent.toLowerCase()
 
   if (/android/i.test(ua)) {
     return true
   }
 
-  if (/(iPhoneiPadiPodiOS)/i.test(ua)) {
+  if (/(iphone|ipad|ipod|ios)/i.test(ua)) {
     return true
   }
-  if (/Linux/i.test(ua)) {
+  if (/linux/i.test(ua)) {
     return true
   }
-  if (/MicroMessenger/i.test(ua)) {
+  if (/micromessenger/i.test(ua)) {
     return true
   }
 }
