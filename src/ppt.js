@@ -138,7 +138,7 @@ export default class PPT extends React.Component {
                 <li>
                   github:{' '}
                   <a href="https://github.com/typeerrorfeclass/introduction-class">
-                    https://github.com/typeerrorfeclass/introduction-class
+                    typeerrorfeclass/introduction-class
                   </a>
                 </li>
               </ul>
@@ -155,13 +155,13 @@ export default class PPT extends React.Component {
                 <li>
                   主页:{' '}
                   <a href="https://typeerrorfeclass.github.io/ecmascript-class">
-                    https://typeerrorfeclass.github.io/ecmascript-class
+                    typeerrorfeclass/ecmascript-class
                   </a>
                 </li>
                 <li>
                   github:{' '}
                   <a href="https://github.com/typeerrorfeclass/ecmascript-class">
-                    https://github.com/typeerrorfeclass/ecmascript-class
+                    typeerrorfeclass/ecmascript-class
                   </a>
                 </li>
               </ul>

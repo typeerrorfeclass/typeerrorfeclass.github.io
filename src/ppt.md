@@ -50,7 +50,7 @@ TypeError前端直播室是一个线上前端技术培训项目, 目前和专业
 
 ### 链接
 * 主页: 准备中...
-* github: https://github.com/typeerrorfeclass/introduction-class
+* github: [typeerrorfeclass/introduction-class](https://github.com/typeerrorfeclass/introduction-class)
 
 @page
 
@@ -60,5 +60,5 @@ TypeError前端直播室是一个线上前端技术培训项目, 目前和专业
 ECMAScript教学课, 包含ECMAScript基本概念, babel使用, eslint使用, 以及新语法的深度介绍和使用经验.
 
 ### 链接
-* 主页: https://typeerrorfeclass.github.io/ecmascript-class
-* github: https://github.com/typeerrorfeclass/ecmascript-class
+* 主页: [typeerrorfeclass/ecmascript-class](https://typeerrorfeclass.github.io/ecmascript-class)
+* github: [typeerrorfeclass/ecmascript-class](https://github.com/typeerrorfeclass/ecmascript-class)
