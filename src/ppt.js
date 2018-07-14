@@ -37,7 +37,7 @@ export default class PPT extends React.Component {
       currIndex = -1
     }
 
-    if (currIndex >= 5 - 1) {
+    if (currIndex >= 6 - 1) {
       return
     }
 
@@ -71,7 +71,8 @@ export default class PPT extends React.Component {
                 'TypeError前端直播室',
                 '未命名',
                 '绪论',
-                '现代javascript'
+                '现代javascript',
+                '编程实践 - 俄罗斯方块'
               ]}
             />
             <Page pageIndex={0}>
@@ -162,6 +163,26 @@ export default class PPT extends React.Component {
                   github:{' '}
                   <a href="https://github.com/typeerrorfeclass/ecmascript-class">
                     typeerrorfeclass/ecmascript-class
+                  </a>
+                </li>
+              </ul>
+            </Page>
+            <Page pageIndex={5}>
+              <h2 id="-">编程实践 - 俄罗斯方块</h2>
+              <h3 id="-">简介</h3>
+              <p>以俄罗斯方块为案例, 讲解前端单页应用设计和实现方法.</p>
+              <h3 id="-">链接</h3>
+              <ul>
+                <li>
+                  主页:{' '}
+                  <a href="https://typeerrorfeclass.github.io/tetris-class">
+                    typeerrorfeclass/tetris-class
+                  </a>
+                </li>
+                <li>
+                  github:{' '}
+                  <a href="https://github.com/typeerrorfeclass/tetris-class">
+                    typeerrorfeclass/tetris-class
                   </a>
                 </li>
               </ul>
